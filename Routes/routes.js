@@ -13,7 +13,7 @@ router.get('/auth/google',
     // Successful authentication, redirect home.
     // 
     res.writeHead(302,{
-        Location : 'http://localhost:3000/'
+        Location : 'https://aha-video-clone.vercel.app/'
     })
     res.send();
   });
